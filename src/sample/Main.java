@@ -69,7 +69,7 @@ public class Main extends Application {
     private final Desktop desktop = Desktop.getDesktop();
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         // 找控件
         initView(root);
@@ -122,7 +122,7 @@ public class Main extends Application {
                 if (dragboard.hasFiles()) {
                     File file = dragboard.getFiles().get(0);
 //                    if (file.getAbsolutePath().endsWith(".java")) { //用来过滤拖入类型
-                        event.acceptTransferModes(TransferMode.COPY);//接受拖入文件
+                    event.acceptTransferModes(TransferMode.COPY);//接受拖入文件
 //                    }
                 }
 
@@ -381,10 +381,10 @@ public class Main extends Application {
             return;
         }
         // 遍历打包参数
-        for (String man : manList) {
-            for (String serverType : serverTypeList) {
-                for (String area : areaList) {
-                    for (String model : modelList) {
+        for (String model : modelList) {
+            for (String area : areaList) {
+                for (String serverType : serverTypeList) {
+                    for (String man : manList) {
                         for (WifiInfo wifiInfo : wifiList) {
                             String[] singleParamArray = new String[]{srcFilePath,
                                     "LIFWEAR_MODEL:" + model,

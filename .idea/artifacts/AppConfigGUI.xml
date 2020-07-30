@@ -6,7 +6,12 @@
         <option name="appClass" value="sample.Main" />
         <option name="description" value="" />
         <option name="htmlPlaceholderId" value="" />
-        <option name="nativeBundle" value="image" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/src/image/icon_128.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="all" />
         <option name="title" value="AppConfigGUI" />
         <option name="vendor" value="YWT" />
         <option name="version" value="" />
