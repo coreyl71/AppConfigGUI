@@ -1,0 +1,104 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<Pane fx:controller="sample.Controller"
+      fx:id="rootPane"
+      maxHeight="-Infinity"
+      maxWidth="-Infinity"
+      minHeight="-Infinity"
+      minWidth="-Infinity"
+      prefHeight="350.0"
+      prefWidth="500.0"
+      xmlns="http://javafx.com/javafx/8.0.40"
+      xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox layoutX="50" layoutY="20">
+            <HBox prefHeight="40" alignment="CENTER_LEFT" spacing="5">
+                <Label prefWidth="95" prefHeight="20" text="选择文件："/>
+                <TextField fx:id="tfFilePath" prefWidth="280" prefHeight="5"/>
+                <Button fx:id="btnChooseFile" prefWidth="25" prefHeight="10"
+                        style="-fx-background-image:url('/image/ic_folder.png');
+                        -fx-background-size:20px;
+                        -fx-background-position: 50%;
+                        -fx-background-repeat: no-repeat;"/>
+            </HBox>
+            <Label prefWidth="140" prefHeight="40" text="请选择相应参数："/>
+            <HBox>
+                <Label prefWidth="100" prefHeight="40" text="站点地区："/>
+<!--                <fx:define>-->
+<!--                    <ToggleGroup fx:id="tgArea"/>-->
+<!--                </fx:define>-->
+                <CheckBox fx:id="cbAreaAs" prefWidth="100" prefHeight="40"
+                             text="中国地区"/>
+                <CheckBox fx:id="cbAreaNa" prefWidth="100" prefHeight="40"
+                             text="北美地区"/>
+                <CheckBox fx:id="cbAreaAll" prefWidth="100" prefHeight="40"
+                          text="全部地区"/>
+            </HBox>
+            <HBox>
+                <Label prefWidth="100" prefHeight="40" text="站点类型："/>
+                <fx:define>
+                    <ToggleGroup fx:id="tgServerType"/>
+                </fx:define>
+                <CheckBox fx:id="cbServerTest" prefWidth="100" prefHeight="40"
+                             text="测试站点"/>
+                <CheckBox fx:id="cbServerRelease" prefWidth="100" prefHeight="40"
+                             text="运营站点"/>
+                <CheckBox fx:id="cbServerAll" prefWidth="100" prefHeight="40"
+                          text="全部类型"/>
+            </HBox>
+            <HBox>
+                <Label prefWidth="100" prefHeight="40" text="生产厂商："/>
+                <fx:define>
+                    <ToggleGroup fx:id="tgManufacturer"/>
+                </fx:define>
+                <CheckBox fx:id="cbManJC" prefWidth="100" prefHeight="40"
+                             text="景创"/>
+                <CheckBox fx:id="cbManRJ" prefWidth="100" prefHeight="40"
+                             text="瑞金"/>
+                <CheckBox fx:id="cbManAll" prefWidth="100" prefHeight="40"
+                          text="全部厂商"/>
+            </HBox>
+            <HBox>
+                <Label prefWidth="100" prefHeight="40" text="设备版本："/>
+                <fx:define>
+                    <ToggleGroup toggles="" fx:id="tgModel"/>
+                </fx:define>
+                <CheckBox fx:id="cbModelT5" prefWidth="100" prefHeight="40"
+                             text="T5"/>
+                <CheckBox fx:id="cbModelT6" prefWidth="100" prefHeight="40"
+                             text="T6"/>
+                <CheckBox fx:id="cbModelAll" prefWidth="100" prefHeight="40"
+                          text="全部版本"/>
+            </HBox>
+            <HBox>
+                <Label prefWidth="100" prefHeight="40" text="Wifi热点："/>
+                <fx:define>
+                    <ToggleGroup toggles="" fx:id="tgWifi"/>
+                </fx:define>
+                <!--smartwatch 12345678-->
+                <CheckBox fx:id="cbWifi1" prefWidth="100" prefHeight="40"
+                          text="smartwatch"/>
+                <!--HSRG-RJ HS12345678-->
+                <CheckBox fx:id="cbWifi2" prefWidth="100" prefHeight="40"
+                          text="HSRG-RJ"/>
+                <CheckBox fx:id="cbWifiAll" prefWidth="100" prefHeight="40"
+                          text="全部Wifi站点"/>
+            </HBox>
+
+            <HBox alignment="CENTER_RIGHT">
+                <CheckBox fx:id="cbPackageAll" prefWidth="100" prefHeight="40"
+                          text="全参数打包"/>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" >
+                <Button fx:id="btn_confirm" prefWidth="100" prefHeight="40" mnemonicParsing="false" text="确定"/>
+            </HBox>
+        </VBox>
+
+    </children>
+</Pane>

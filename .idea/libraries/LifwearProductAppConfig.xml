@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="LifwearProductAppConfig">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/LifwearProductAppConfig.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/LifwearProductAppConfig.jar!/" />
+    </SOURCES>
+  </library>
+</component>

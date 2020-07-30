@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="AppConfigGUI">
+    <output-path>$PROJECT_DIR$/out/artifacts/AppConfigGUI</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="image" />
+        <option name="title" value="AppConfigGUI" />
+        <option name="vendor" value="YWT" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="AppConfigGUI.jar">
+        <element id="module-output" name="AppConfigGUI" />
+      </element>
+      <element id="library" level="project" name="LifwearProductAppConfig" />
+    </root>
+  </artifact>
+</component>
