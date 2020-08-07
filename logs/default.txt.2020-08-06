@@ -1,0 +1,594 @@
+2020-08-06 17:17:22  [ JavaFX Application Thread:0 ] - [ INFO ]  =========================Using LIF Product App Config JAR 1.0.6=========================
+2020-08-06 17:17:22  [ JavaFX Application Thread:4 ] - [ INFO ]  compile path: C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear
+2020-08-06 17:17:22  [ JavaFX Application Thread:4 ] - [ INFO ]  start decode apk file C:\Users\Administrator\Desktop\appconfig_demo\lifwear.apk, compile path C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear
+2020-08-06 17:17:25  [ JavaFX Application Thread:3265 ] - [ INFO ]  manifest path: C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear\AndroidManifest.xml
+2020-08-06 17:17:25  [ JavaFX Application Thread:3265 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=AS, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T5, WIFI_SSID=smartwatch}
+2020-08-06 17:17:25  [ JavaFX Application Thread:3302 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:25  [ JavaFX Application Thread:3311 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:25  [ JavaFX Application Thread:3316 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:30  [ JavaFX Application Thread:7577 ] - [ INFO ]  jks already exists
+2020-08-06 17:17:30  [ JavaFX Application Thread:7577 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:30  [ JavaFX Application Thread:8184 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:30  [ JavaFX Application Thread:8184 ] - [ INFO ]  needn't delete temp file
+2020-08-06 17:17:30  [ JavaFX Application Thread:8184 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=AS, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T5, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:17:30  [ JavaFX Application Thread:8215 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:30  [ JavaFX Application Thread:8223 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:30  [ JavaFX Application Thread:8225 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:32  [ JavaFX Application Thread:10016 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:32  [ JavaFX Application Thread:10319 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:32  [ JavaFX Application Thread:10319 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T5, WIFI_SSID=smartwatch}
+2020-08-06 17:17:32  [ JavaFX Application Thread:10354 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:32  [ JavaFX Application Thread:10364 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:32  [ JavaFX Application Thread:10366 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:34  [ JavaFX Application Thread:12091 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:34  [ JavaFX Application Thread:12399 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:34  [ JavaFX Application Thread:12399 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T5, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:17:34  [ JavaFX Application Thread:12430 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:34  [ JavaFX Application Thread:12437 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:34  [ JavaFX Application Thread:12440 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:36  [ JavaFX Application Thread:14223 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:37  [ JavaFX Application Thread:14524 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:37  [ JavaFX Application Thread:14525 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=AS, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T5, WIFI_SSID=smartwatch}
+2020-08-06 17:17:37  [ JavaFX Application Thread:14556 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:37  [ JavaFX Application Thread:14562 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:37  [ JavaFX Application Thread:14565 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:38  [ JavaFX Application Thread:16354 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:39  [ JavaFX Application Thread:16683 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:39  [ JavaFX Application Thread:16683 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=AS, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T5, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:17:39  [ JavaFX Application Thread:16706 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:39  [ JavaFX Application Thread:16712 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:39  [ JavaFX Application Thread:16715 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:41  [ JavaFX Application Thread:18506 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:41  [ JavaFX Application Thread:18810 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:41  [ JavaFX Application Thread:18810 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T5, WIFI_SSID=smartwatch}
+2020-08-06 17:17:41  [ JavaFX Application Thread:18838 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:41  [ JavaFX Application Thread:18846 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:41  [ JavaFX Application Thread:18848 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:43  [ JavaFX Application Thread:20613 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:43  [ JavaFX Application Thread:20924 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:43  [ JavaFX Application Thread:20924 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T5, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:17:43  [ JavaFX Application Thread:20951 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:43  [ JavaFX Application Thread:20958 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:43  [ JavaFX Application Thread:20961 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:45  [ JavaFX Application Thread:22695 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:45  [ JavaFX Application Thread:22991 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner8098922454698659970.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:45  [ JavaFX Application Thread:22992 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:45  [ JavaFX Application Thread:22992 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=NA, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T5, WIFI_SSID=smartwatch}
+2020-08-06 17:17:45  [ JavaFX Application Thread:23022 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:45  [ JavaFX Application Thread:23030 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:45  [ JavaFX Application Thread:23032 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:47  [ JavaFX Application Thread:24783 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:47  [ JavaFX Application Thread:25115 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner5669730721344983568.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:47  [ JavaFX Application Thread:25116 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:47  [ JavaFX Application Thread:25116 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=NA, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T5, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:17:47  [ JavaFX Application Thread:25146 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:47  [ JavaFX Application Thread:25154 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:47  [ JavaFX Application Thread:25157 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:49  [ JavaFX Application Thread:26884 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:49  [ JavaFX Application Thread:27188 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:49  [ JavaFX Application Thread:27188 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T5, WIFI_SSID=smartwatch}
+2020-08-06 17:17:49  [ JavaFX Application Thread:27221 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:49  [ JavaFX Application Thread:27229 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:49  [ JavaFX Application Thread:27231 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:51  [ JavaFX Application Thread:28967 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:51  [ JavaFX Application Thread:29266 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:51  [ JavaFX Application Thread:29266 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T5, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:17:51  [ JavaFX Application Thread:29297 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:51  [ JavaFX Application Thread:29305 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:51  [ JavaFX Application Thread:29307 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:53  [ JavaFX Application Thread:31025 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:53  [ JavaFX Application Thread:31333 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:53  [ JavaFX Application Thread:31333 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=NA, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T5, WIFI_SSID=smartwatch}
+2020-08-06 17:17:53  [ JavaFX Application Thread:31361 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:53  [ JavaFX Application Thread:31368 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:53  [ JavaFX Application Thread:31371 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:55  [ JavaFX Application Thread:33120 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:55  [ JavaFX Application Thread:33426 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:55  [ JavaFX Application Thread:33426 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=NA, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T5, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:17:56  [ JavaFX Application Thread:33512 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:56  [ JavaFX Application Thread:33520 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:56  [ JavaFX Application Thread:33523 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:57  [ JavaFX Application Thread:35241 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:17:58  [ JavaFX Application Thread:35537 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:17:58  [ JavaFX Application Thread:35538 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T5, WIFI_SSID=smartwatch}
+2020-08-06 17:17:58  [ JavaFX Application Thread:35574 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:17:58  [ JavaFX Application Thread:35589 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:17:58  [ JavaFX Application Thread:35591 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:17:59  [ JavaFX Application Thread:37307 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:00  [ JavaFX Application Thread:37602 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner823828666912725370.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:18:00  [ JavaFX Application Thread:37603 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:18:00  [ JavaFX Application Thread:37603 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T5, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:18:00  [ JavaFX Application Thread:37636 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:18:00  [ JavaFX Application Thread:37645 ] - [ INFO ]  dest apk file variant name: T5
+2020-08-06 17:18:00  [ JavaFX Application Thread:37648 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:18:01  [ JavaFX Application Thread:39371 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:02  [ JavaFX Application Thread:39666 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner8307605432049505573.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T5.apk
+2020-08-06 17:18:02  [ JavaFX Application Thread:39666 ] - [ INFO ]  Config success, variant: T5
+2020-08-06 17:18:02  [ JavaFX Application Thread:39667 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=AS, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T6, WIFI_SSID=smartwatch}
+2020-08-06 17:18:02  [ JavaFX Application Thread:39723 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:02  [ JavaFX Application Thread:39732 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:02  [ JavaFX Application Thread:39734 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:03  [ JavaFX Application Thread:41493 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:04  [ JavaFX Application Thread:41787 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner6916532402246821826.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:04  [ JavaFX Application Thread:41788 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:04  [ JavaFX Application Thread:41788 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=AS, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T6, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:18:04  [ JavaFX Application Thread:41816 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:04  [ JavaFX Application Thread:41823 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:04  [ JavaFX Application Thread:41826 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:06  [ JavaFX Application Thread:43531 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:06  [ JavaFX Application Thread:43859 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:06  [ JavaFX Application Thread:43859 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T6, WIFI_SSID=smartwatch}
+2020-08-06 17:18:06  [ JavaFX Application Thread:43888 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:06  [ JavaFX Application Thread:43896 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:06  [ JavaFX Application Thread:43898 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:08  [ JavaFX Application Thread:45642 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:08  [ JavaFX Application Thread:45935 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner16357756955796333.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:08  [ JavaFX Application Thread:45935 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:08  [ JavaFX Application Thread:45936 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T6, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:18:08  [ JavaFX Application Thread:45968 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:08  [ JavaFX Application Thread:45976 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:08  [ JavaFX Application Thread:45979 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:10  [ JavaFX Application Thread:47704 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:10  [ JavaFX Application Thread:48004 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:10  [ JavaFX Application Thread:48004 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=AS, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T6, WIFI_SSID=smartwatch}
+2020-08-06 17:18:10  [ JavaFX Application Thread:48036 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:10  [ JavaFX Application Thread:48044 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:10  [ JavaFX Application Thread:48046 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:12  [ JavaFX Application Thread:49798 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:12  [ JavaFX Application Thread:50093 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:12  [ JavaFX Application Thread:50093 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=AS, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T6, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:18:12  [ JavaFX Application Thread:50121 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:12  [ JavaFX Application Thread:50128 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:12  [ JavaFX Application Thread:50130 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:14  [ JavaFX Application Thread:51890 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:14  [ JavaFX Application Thread:52186 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:14  [ JavaFX Application Thread:52187 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T6, WIFI_SSID=smartwatch}
+2020-08-06 17:18:14  [ JavaFX Application Thread:52216 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:14  [ JavaFX Application Thread:52224 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:14  [ JavaFX Application Thread:52226 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:16  [ JavaFX Application Thread:53967 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:16  [ JavaFX Application Thread:54266 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:16  [ JavaFX Application Thread:54266 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T6, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:18:16  [ JavaFX Application Thread:54296 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:16  [ JavaFX Application Thread:54304 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:16  [ JavaFX Application Thread:54306 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:18  [ JavaFX Application Thread:56082 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:18  [ JavaFX Application Thread:56379 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:18  [ JavaFX Application Thread:56380 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=NA, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T6, WIFI_SSID=smartwatch}
+2020-08-06 17:18:18  [ JavaFX Application Thread:56411 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:18  [ JavaFX Application Thread:56420 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:18  [ JavaFX Application Thread:56422 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:20  [ JavaFX Application Thread:58204 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:21  [ JavaFX Application Thread:58502 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:21  [ JavaFX Application Thread:58502 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=NA, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T6, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:18:21  [ JavaFX Application Thread:58533 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:21  [ JavaFX Application Thread:58540 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:21  [ JavaFX Application Thread:58543 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:22  [ JavaFX Application Thread:60294 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:23  [ JavaFX Application Thread:60597 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:23  [ JavaFX Application Thread:60597 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T6, WIFI_SSID=smartwatch}
+2020-08-06 17:18:23  [ JavaFX Application Thread:60625 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:23  [ JavaFX Application Thread:60632 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:23  [ JavaFX Application Thread:60635 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:24  [ JavaFX Application Thread:62406 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:25  [ JavaFX Application Thread:62718 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:25  [ JavaFX Application Thread:62718 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T6, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:18:25  [ JavaFX Application Thread:62768 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:25  [ JavaFX Application Thread:62776 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:25  [ JavaFX Application Thread:62779 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:27  [ JavaFX Application Thread:64530 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:27  [ JavaFX Application Thread:64840 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:27  [ JavaFX Application Thread:64840 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=NA, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T6, WIFI_SSID=smartwatch}
+2020-08-06 17:18:27  [ JavaFX Application Thread:64870 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:27  [ JavaFX Application Thread:64879 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:27  [ JavaFX Application Thread:64882 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:29  [ JavaFX Application Thread:66616 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:29  [ JavaFX Application Thread:66922 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:29  [ JavaFX Application Thread:66923 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=NA, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T6, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:18:29  [ JavaFX Application Thread:66959 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:29  [ JavaFX Application Thread:66967 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:29  [ JavaFX Application Thread:66969 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:31  [ JavaFX Application Thread:68703 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:31  [ JavaFX Application Thread:69045 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:31  [ JavaFX Application Thread:69045 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=12345678, AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T6, WIFI_SSID=smartwatch}
+2020-08-06 17:18:31  [ JavaFX Application Thread:69076 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:31  [ JavaFX Application Thread:69084 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:31  [ JavaFX Application Thread:69087 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:33  [ JavaFX Application Thread:70790 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:33  [ JavaFX Application Thread:71088 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner2409744845968675116.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:33  [ JavaFX Application Thread:71088 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:33  [ JavaFX Application Thread:71089 ] - [ INFO ]  start modify manifest, params: {WIFI_PWD=HS12345678, AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T6, WIFI_SSID=HSRG-RJ}
+2020-08-06 17:18:33  [ JavaFX Application Thread:71120 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:18:33  [ JavaFX Application Thread:71129 ] - [ INFO ]  dest apk file variant name: T6
+2020-08-06 17:18:33  [ JavaFX Application Thread:71131 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_T6.apk
+2020-08-06 17:18:35  [ JavaFX Application Thread:72870 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:18:35  [ JavaFX Application Thread:73166 ] - [ INFO ]  Config success, variant: T6
+2020-08-06 17:18:35  [ JavaFX Application Thread:73166 ] - [ INFO ]  path C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear
+2020-08-06 17:18:36  [ JavaFX Application Thread:74453 ] - [ INFO ]  config finished
+2020-08-06 17:18:36  [ JavaFX Application Thread:74453 ] - [ INFO ]  Config finished, spent time 74 s, success count: 32, failed count: 0
+
+
+
+2020-08-06 17:21:41  [ JavaFX Application Thread:259196 ] - [ INFO ]  =========================Using LIF Product App Config JAR 1.0.6=========================
+2020-08-06 17:21:41  [ JavaFX Application Thread:259197 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:21:41  [ JavaFX Application Thread:259197 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:21:41  [ JavaFX Application Thread:259197 ] - [ INFO ]  compile path: C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear_release_2.0.43_202008061720
+2020-08-06 17:21:41  [ JavaFX Application Thread:259197 ] - [ INFO ]  start decode apk file C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720.apk, compile path C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear_release_2.0.43_202008061720
+2020-08-06 17:21:45  [ JavaFX Application Thread:263141 ] - [ INFO ]  manifest path: C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear_release_2.0.43_202008061720\AndroidManifest.xml
+2020-08-06 17:21:45  [ JavaFX Application Thread:263141 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T5}
+2020-08-06 17:21:45  [ JavaFX Application Thread:263179 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:21:45  [ JavaFX Application Thread:263180 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:21:45  [ JavaFX Application Thread:263181 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:21:45  [ JavaFX Application Thread:263181 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:21:45  [ JavaFX Application Thread:263193 ] - [ INFO ]  dest apk file variant name: T5_AS_T_JC
+2020-08-06 17:21:45  [ JavaFX Application Thread:263195 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_T_JC.apk
+2020-08-06 17:21:49  [ JavaFX Application Thread:267158 ] - [ INFO ]  jks already exists
+2020-08-06 17:21:49  [ JavaFX Application Thread:267158 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:21:49  [ JavaFX Application Thread:267366 ] - [ INFO ]  Config success, variant: T5_AS_T_JC
+2020-08-06 17:21:49  [ JavaFX Application Thread:267366 ] - [ INFO ]  needn't delete temp file
+2020-08-06 17:21:49  [ JavaFX Application Thread:267366 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:21:49  [ JavaFX Application Thread:267366 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:21:49  [ JavaFX Application Thread:267366 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T5}
+2020-08-06 17:21:49  [ JavaFX Application Thread:267411 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:21:49  [ JavaFX Application Thread:267411 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:21:49  [ JavaFX Application Thread:267412 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:21:49  [ JavaFX Application Thread:267412 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:21:49  [ JavaFX Application Thread:267426 ] - [ INFO ]  dest apk file variant name: T5_AS_T_RJ
+2020-08-06 17:21:49  [ JavaFX Application Thread:267428 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_T_RJ.apk
+2020-08-06 17:21:52  [ JavaFX Application Thread:269533 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:21:52  [ JavaFX Application Thread:269736 ] - [ INFO ]  Config success, variant: T5_AS_T_RJ
+2020-08-06 17:21:52  [ JavaFX Application Thread:269737 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:21:52  [ JavaFX Application Thread:269737 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:21:52  [ JavaFX Application Thread:269737 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T5}
+2020-08-06 17:21:52  [ JavaFX Application Thread:269785 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:21:52  [ JavaFX Application Thread:269786 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:21:52  [ JavaFX Application Thread:269787 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:21:52  [ JavaFX Application Thread:269787 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:21:52  [ JavaFX Application Thread:269800 ] - [ INFO ]  dest apk file variant name: T5_AS_R_JC
+2020-08-06 17:21:52  [ JavaFX Application Thread:269803 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_R_JC.apk
+2020-08-06 17:21:54  [ JavaFX Application Thread:271872 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:21:54  [ JavaFX Application Thread:272076 ] - [ INFO ]  Config success, variant: T5_AS_R_JC
+2020-08-06 17:21:54  [ JavaFX Application Thread:272077 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:21:54  [ JavaFX Application Thread:272077 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:21:54  [ JavaFX Application Thread:272077 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T5}
+2020-08-06 17:21:54  [ JavaFX Application Thread:272120 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:21:54  [ JavaFX Application Thread:272120 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:21:54  [ JavaFX Application Thread:272121 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:21:54  [ JavaFX Application Thread:272122 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:21:54  [ JavaFX Application Thread:272133 ] - [ INFO ]  dest apk file variant name: T5_AS_R_RJ
+2020-08-06 17:21:54  [ JavaFX Application Thread:272135 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_R_RJ.apk
+2020-08-06 17:21:56  [ JavaFX Application Thread:274198 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:21:56  [ JavaFX Application Thread:274424 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner8553217002815241806.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_R_RJ.apk
+2020-08-06 17:21:56  [ JavaFX Application Thread:274425 ] - [ INFO ]  Config success, variant: T5_AS_R_RJ
+2020-08-06 17:21:56  [ JavaFX Application Thread:274425 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:21:56  [ JavaFX Application Thread:274425 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:21:56  [ JavaFX Application Thread:274425 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T5}
+2020-08-06 17:21:56  [ JavaFX Application Thread:274468 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:21:56  [ JavaFX Application Thread:274469 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:21:56  [ JavaFX Application Thread:274469 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:21:56  [ JavaFX Application Thread:274470 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:21:56  [ JavaFX Application Thread:274482 ] - [ INFO ]  dest apk file variant name: T5_NA_T_JC
+2020-08-06 17:21:56  [ JavaFX Application Thread:274485 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_NA_T_JC.apk
+2020-08-06 17:21:59  [ JavaFX Application Thread:276562 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:21:59  [ JavaFX Application Thread:276768 ] - [ INFO ]  Config success, variant: T5_NA_T_JC
+2020-08-06 17:21:59  [ JavaFX Application Thread:276768 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:21:59  [ JavaFX Application Thread:276768 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:21:59  [ JavaFX Application Thread:276768 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T5}
+2020-08-06 17:21:59  [ JavaFX Application Thread:276830 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:21:59  [ JavaFX Application Thread:276831 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:21:59  [ JavaFX Application Thread:276831 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:21:59  [ JavaFX Application Thread:276832 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:21:59  [ JavaFX Application Thread:276845 ] - [ INFO ]  dest apk file variant name: T5_NA_T_RJ
+2020-08-06 17:21:59  [ JavaFX Application Thread:276847 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_NA_T_RJ.apk
+2020-08-06 17:22:01  [ JavaFX Application Thread:278934 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:22:01  [ JavaFX Application Thread:279136 ] - [ INFO ]  Config success, variant: T5_NA_T_RJ
+2020-08-06 17:22:01  [ JavaFX Application Thread:279136 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:22:01  [ JavaFX Application Thread:279136 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:22:01  [ JavaFX Application Thread:279136 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T5}
+2020-08-06 17:22:01  [ JavaFX Application Thread:279186 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:22:01  [ JavaFX Application Thread:279187 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:22:01  [ JavaFX Application Thread:279188 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:22:01  [ JavaFX Application Thread:279188 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:22:01  [ JavaFX Application Thread:279201 ] - [ INFO ]  dest apk file variant name: T5_NA_R_JC
+2020-08-06 17:22:01  [ JavaFX Application Thread:279204 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_NA_R_JC.apk
+2020-08-06 17:22:03  [ JavaFX Application Thread:281252 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:22:03  [ JavaFX Application Thread:281455 ] - [ INFO ]  Config success, variant: T5_NA_R_JC
+2020-08-06 17:22:03  [ JavaFX Application Thread:281455 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:22:03  [ JavaFX Application Thread:281455 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:22:03  [ JavaFX Application Thread:281456 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T5}
+2020-08-06 17:22:04  [ JavaFX Application Thread:281502 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:22:04  [ JavaFX Application Thread:281502 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:22:04  [ JavaFX Application Thread:281503 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:22:04  [ JavaFX Application Thread:281504 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:22:04  [ JavaFX Application Thread:281516 ] - [ INFO ]  dest apk file variant name: T5_NA_R_RJ
+2020-08-06 17:22:04  [ JavaFX Application Thread:281519 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_NA_R_RJ.apk
+2020-08-06 17:22:06  [ JavaFX Application Thread:283569 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:22:06  [ JavaFX Application Thread:283775 ] - [ INFO ]  Config success, variant: T5_NA_R_RJ
+2020-08-06 17:22:06  [ JavaFX Application Thread:283775 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:22:06  [ JavaFX Application Thread:283775 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:22:06  [ JavaFX Application Thread:283776 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T6}
+2020-08-06 17:22:06  [ JavaFX Application Thread:283823 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:22:06  [ JavaFX Application Thread:283824 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:22:06  [ JavaFX Application Thread:283824 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:22:06  [ JavaFX Application Thread:283825 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:22:06  [ JavaFX Application Thread:283838 ] - [ INFO ]  dest apk file variant name: T6_AS_T_JC
+2020-08-06 17:22:06  [ JavaFX Application Thread:283840 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_AS_T_JC.apk
+2020-08-06 17:22:08  [ JavaFX Application Thread:286090 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:22:08  [ JavaFX Application Thread:286294 ] - [ INFO ]  Config success, variant: T6_AS_T_JC
+2020-08-06 17:22:08  [ JavaFX Application Thread:286294 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:22:08  [ JavaFX Application Thread:286294 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:22:08  [ JavaFX Application Thread:286294 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T6}
+2020-08-06 17:22:08  [ JavaFX Application Thread:286338 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:22:08  [ JavaFX Application Thread:286338 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:22:08  [ JavaFX Application Thread:286339 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:22:08  [ JavaFX Application Thread:286340 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:22:08  [ JavaFX Application Thread:286352 ] - [ INFO ]  dest apk file variant name: T6_AS_T_RJ
+2020-08-06 17:22:08  [ JavaFX Application Thread:286355 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_AS_T_RJ.apk
+2020-08-06 17:22:10  [ JavaFX Application Thread:288455 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:22:11  [ JavaFX Application Thread:288667 ] - [ INFO ]  Config success, variant: T6_AS_T_RJ
+2020-08-06 17:22:11  [ JavaFX Application Thread:288667 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:22:11  [ JavaFX Application Thread:288667 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:22:11  [ JavaFX Application Thread:288667 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T6}
+2020-08-06 17:22:11  [ JavaFX Application Thread:288711 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:22:11  [ JavaFX Application Thread:288712 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:22:11  [ JavaFX Application Thread:288712 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:22:11  [ JavaFX Application Thread:288713 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:22:11  [ JavaFX Application Thread:288725 ] - [ INFO ]  dest apk file variant name: T6_AS_R_JC
+2020-08-06 17:22:11  [ JavaFX Application Thread:288727 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_AS_R_JC.apk
+2020-08-06 17:22:13  [ JavaFX Application Thread:290862 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:22:13  [ JavaFX Application Thread:291066 ] - [ INFO ]  Config success, variant: T6_AS_R_JC
+2020-08-06 17:22:13  [ JavaFX Application Thread:291066 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:22:13  [ JavaFX Application Thread:291066 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:22:13  [ JavaFX Application Thread:291066 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T6}
+2020-08-06 17:22:13  [ JavaFX Application Thread:291113 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:22:13  [ JavaFX Application Thread:291114 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:22:13  [ JavaFX Application Thread:291115 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:22:13  [ JavaFX Application Thread:291115 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:22:13  [ JavaFX Application Thread:291127 ] - [ INFO ]  dest apk file variant name: T6_AS_R_RJ
+2020-08-06 17:22:13  [ JavaFX Application Thread:291129 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_AS_R_RJ.apk
+2020-08-06 17:22:15  [ JavaFX Application Thread:293197 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:22:15  [ JavaFX Application Thread:293405 ] - [ INFO ]  Config success, variant: T6_AS_R_RJ
+2020-08-06 17:22:15  [ JavaFX Application Thread:293405 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:22:15  [ JavaFX Application Thread:293405 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:22:15  [ JavaFX Application Thread:293405 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T6}
+2020-08-06 17:22:15  [ JavaFX Application Thread:293452 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:22:15  [ JavaFX Application Thread:293453 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:22:15  [ JavaFX Application Thread:293453 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:22:15  [ JavaFX Application Thread:293454 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:22:15  [ JavaFX Application Thread:293466 ] - [ INFO ]  dest apk file variant name: T6_NA_T_JC
+2020-08-06 17:22:15  [ JavaFX Application Thread:293469 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_NA_T_JC.apk
+2020-08-06 17:22:18  [ JavaFX Application Thread:295550 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:22:18  [ JavaFX Application Thread:295756 ] - [ INFO ]  Config success, variant: T6_NA_T_JC
+2020-08-06 17:22:18  [ JavaFX Application Thread:295756 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:22:18  [ JavaFX Application Thread:295756 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:22:18  [ JavaFX Application Thread:295756 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T6}
+2020-08-06 17:22:18  [ JavaFX Application Thread:295803 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:22:18  [ JavaFX Application Thread:295804 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:22:18  [ JavaFX Application Thread:295804 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:22:18  [ JavaFX Application Thread:295805 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:22:18  [ JavaFX Application Thread:295817 ] - [ INFO ]  dest apk file variant name: T6_NA_T_RJ
+2020-08-06 17:22:18  [ JavaFX Application Thread:295819 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_NA_T_RJ.apk
+2020-08-06 17:22:20  [ JavaFX Application Thread:297914 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:22:20  [ JavaFX Application Thread:298118 ] - [ INFO ]  Config success, variant: T6_NA_T_RJ
+2020-08-06 17:22:20  [ JavaFX Application Thread:298118 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:22:20  [ JavaFX Application Thread:298118 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:22:20  [ JavaFX Application Thread:298118 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T6}
+2020-08-06 17:22:20  [ JavaFX Application Thread:298166 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:22:20  [ JavaFX Application Thread:298167 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:22:20  [ JavaFX Application Thread:298168 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:22:20  [ JavaFX Application Thread:298169 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:22:20  [ JavaFX Application Thread:298181 ] - [ INFO ]  dest apk file variant name: T6_NA_R_JC
+2020-08-06 17:22:20  [ JavaFX Application Thread:298183 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_NA_R_JC.apk
+2020-08-06 17:22:22  [ JavaFX Application Thread:300279 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:22:22  [ JavaFX Application Thread:300485 ] - [ INFO ]  Config success, variant: T6_NA_R_JC
+2020-08-06 17:22:22  [ JavaFX Application Thread:300485 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:22:22  [ JavaFX Application Thread:300485 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:22:22  [ JavaFX Application Thread:300485 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T6}
+2020-08-06 17:22:23  [ JavaFX Application Thread:300529 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:22:23  [ JavaFX Application Thread:300529 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:22:23  [ JavaFX Application Thread:300530 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:22:23  [ JavaFX Application Thread:300531 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:22:23  [ JavaFX Application Thread:300543 ] - [ INFO ]  dest apk file variant name: T6_NA_R_RJ
+2020-08-06 17:22:23  [ JavaFX Application Thread:300545 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_NA_R_RJ.apk
+2020-08-06 17:22:25  [ JavaFX Application Thread:302632 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:22:25  [ JavaFX Application Thread:302833 ] - [ INFO ]  Config success, variant: T6_NA_R_RJ
+2020-08-06 17:22:25  [ JavaFX Application Thread:302833 ] - [ INFO ]  path C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear_release_2.0.43_202008061720
+2020-08-06 17:22:26  [ JavaFX Application Thread:304269 ] - [ INFO ]  config finished
+2020-08-06 17:22:26  [ JavaFX Application Thread:304269 ] - [ INFO ]  Config finished, spent time 45 s, success count: 48, failed count: 0
+
+
+
+2020-08-06 17:31:18  [ Thread-5:0 ] - [ INFO ]  =========================Using LIF Product App Config JAR 1.0.6=========================
+2020-08-06 17:31:18  [ Thread-5:3 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:18  [ Thread-5:3 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:18  [ Thread-5:4 ] - [ INFO ]  compile path: C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear_release_2.0.43_202008061720
+2020-08-06 17:31:18  [ Thread-5:4 ] - [ INFO ]  start decode apk file C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720.apk, compile path C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear_release_2.0.43_202008061720
+2020-08-06 17:31:22  [ Thread-5:3528 ] - [ INFO ]  manifest path: C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear_release_2.0.43_202008061720\AndroidManifest.xml
+2020-08-06 17:31:22  [ Thread-5:3529 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T5}
+2020-08-06 17:31:22  [ Thread-5:3571 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:31:22  [ Thread-5:3572 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:31:22  [ Thread-5:3573 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:31:22  [ Thread-5:3573 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:31:22  [ Thread-5:3584 ] - [ INFO ]  dest apk file variant name: T5_AS_T_JC
+2020-08-06 17:31:22  [ Thread-5:3588 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_T_JC.apk
+2020-08-06 17:31:27  [ Thread-5:8509 ] - [ INFO ]  jks already exists
+2020-08-06 17:31:27  [ Thread-5:8509 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:27  [ Thread-5:9017 ] - [ INFO ]  Config success, variant: T5_AS_T_JC
+2020-08-06 17:31:27  [ Thread-5:9018 ] - [ INFO ]  needn't delete temp file
+2020-08-06 17:31:27  [ Thread-5:9018 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:27  [ Thread-5:9018 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:27  [ Thread-5:9018 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T5}
+2020-08-06 17:31:27  [ Thread-5:9063 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:31:27  [ Thread-5:9064 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:31:27  [ Thread-5:9065 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:31:27  [ Thread-5:9065 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:31:27  [ Thread-5:9078 ] - [ INFO ]  dest apk file variant name: T5_AS_T_RJ
+2020-08-06 17:31:27  [ Thread-5:9081 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_T_RJ.apk
+2020-08-06 17:31:30  [ Thread-5:11212 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:30  [ Thread-5:11431 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner2693373653728224529.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_T_RJ.apk
+2020-08-06 17:31:30  [ Thread-5:11432 ] - [ INFO ]  Config success, variant: T5_AS_T_RJ
+2020-08-06 17:31:30  [ Thread-5:11432 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:30  [ Thread-5:11432 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:30  [ Thread-5:11432 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T5}
+2020-08-06 17:31:30  [ Thread-5:11478 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:31:30  [ Thread-5:11479 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:31:30  [ Thread-5:11479 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:31:30  [ Thread-5:11480 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:31:30  [ Thread-5:11492 ] - [ INFO ]  dest apk file variant name: T5_AS_R_JC
+2020-08-06 17:31:30  [ Thread-5:11495 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_R_JC.apk
+2020-08-06 17:31:32  [ Thread-5:13596 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:32  [ Thread-5:13818 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner4799928904039921769.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_R_JC.apk
+2020-08-06 17:31:32  [ Thread-5:13819 ] - [ INFO ]  Config success, variant: T5_AS_R_JC
+2020-08-06 17:31:32  [ Thread-5:13819 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:32  [ Thread-5:13819 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:32  [ Thread-5:13819 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T5}
+2020-08-06 17:31:32  [ Thread-5:13866 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:31:32  [ Thread-5:13866 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:31:32  [ Thread-5:13867 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:31:32  [ Thread-5:13868 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:31:32  [ Thread-5:13880 ] - [ INFO ]  dest apk file variant name: T5_AS_R_RJ
+2020-08-06 17:31:32  [ Thread-5:13882 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_R_RJ.apk
+2020-08-06 17:31:34  [ Thread-5:15963 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:35  [ Thread-5:16184 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner1671516769285059254.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_AS_R_RJ.apk
+2020-08-06 17:31:35  [ Thread-5:16185 ] - [ INFO ]  Config success, variant: T5_AS_R_RJ
+2020-08-06 17:31:35  [ Thread-5:16185 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:35  [ Thread-5:16185 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:35  [ Thread-5:16185 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T5}
+2020-08-06 17:31:35  [ Thread-5:16232 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:31:35  [ Thread-5:16233 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:31:35  [ Thread-5:16233 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:31:35  [ Thread-5:16234 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:31:35  [ Thread-5:16247 ] - [ INFO ]  dest apk file variant name: T5_NA_T_JC
+2020-08-06 17:31:35  [ Thread-5:16249 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_NA_T_JC.apk
+2020-08-06 17:31:37  [ Thread-5:18370 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:37  [ Thread-5:18587 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner1897528195731432304.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_NA_T_JC.apk
+2020-08-06 17:31:37  [ Thread-5:18587 ] - [ INFO ]  Config success, variant: T5_NA_T_JC
+2020-08-06 17:31:37  [ Thread-5:18587 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:37  [ Thread-5:18587 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:37  [ Thread-5:18587 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T5}
+2020-08-06 17:31:37  [ Thread-5:18629 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:31:37  [ Thread-5:18630 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:31:37  [ Thread-5:18630 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:31:37  [ Thread-5:18631 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:31:37  [ Thread-5:18642 ] - [ INFO ]  dest apk file variant name: T5_NA_T_RJ
+2020-08-06 17:31:37  [ Thread-5:18645 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_NA_T_RJ.apk
+2020-08-06 17:31:39  [ Thread-5:20766 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:39  [ Thread-5:20986 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner6019601546846630017.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_NA_T_RJ.apk
+2020-08-06 17:31:39  [ Thread-5:20987 ] - [ INFO ]  Config success, variant: T5_NA_T_RJ
+2020-08-06 17:31:39  [ Thread-5:20987 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:39  [ Thread-5:20987 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:39  [ Thread-5:20987 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T5}
+2020-08-06 17:31:39  [ Thread-5:21028 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:31:39  [ Thread-5:21028 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:31:39  [ Thread-5:21029 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:31:39  [ Thread-5:21030 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:31:39  [ Thread-5:21042 ] - [ INFO ]  dest apk file variant name: T5_NA_R_JC
+2020-08-06 17:31:39  [ Thread-5:21044 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_NA_R_JC.apk
+2020-08-06 17:31:42  [ Thread-5:23197 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:42  [ Thread-5:23413 ] - [ INFO ]  Config success, variant: T5_NA_R_JC
+2020-08-06 17:31:42  [ Thread-5:23413 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:42  [ Thread-5:23413 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:42  [ Thread-5:23413 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T5}
+2020-08-06 17:31:42  [ Thread-5:23460 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>
+2020-08-06 17:31:42  [ Thread-5:23461 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:31:42  [ Thread-5:23462 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:31:42  [ Thread-5:23462 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:31:42  [ Thread-5:23475 ] - [ INFO ]  dest apk file variant name: T5_NA_R_RJ
+2020-08-06 17:31:42  [ Thread-5:23478 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T5_NA_R_RJ.apk
+2020-08-06 17:31:44  [ Thread-5:25599 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:44  [ Thread-5:25857 ] - [ INFO ]  Config success, variant: T5_NA_R_RJ
+2020-08-06 17:31:44  [ Thread-5:25857 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:44  [ Thread-5:25857 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:44  [ Thread-5:25857 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T6}
+2020-08-06 17:31:44  [ Thread-5:25887 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T5"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:31:44  [ Thread-5:25887 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:31:44  [ Thread-5:25888 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:31:44  [ Thread-5:25888 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:31:44  [ Thread-5:25895 ] - [ INFO ]  dest apk file variant name: T6_AS_T_JC
+2020-08-06 17:31:44  [ Thread-5:25897 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_AS_T_JC.apk
+2020-08-06 17:31:46  [ Thread-5:27992 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:47  [ Thread-5:28208 ] - [ INFO ]  Config success, variant: T6_AS_T_JC
+2020-08-06 17:31:47  [ Thread-5:28208 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:47  [ Thread-5:28208 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:47  [ Thread-5:28208 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T6}
+2020-08-06 17:31:47  [ Thread-5:28253 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:31:47  [ Thread-5:28254 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:31:47  [ Thread-5:28254 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:31:47  [ Thread-5:28255 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:31:47  [ Thread-5:28268 ] - [ INFO ]  dest apk file variant name: T6_AS_T_RJ
+2020-08-06 17:31:47  [ Thread-5:28270 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_AS_T_RJ.apk
+2020-08-06 17:31:49  [ Thread-5:30346 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:49  [ Thread-5:30555 ] - [ INFO ]  Config success, variant: T6_AS_T_RJ
+2020-08-06 17:31:49  [ Thread-5:30555 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:49  [ Thread-5:30555 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:49  [ Thread-5:30555 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T6}
+2020-08-06 17:31:49  [ Thread-5:30605 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:31:49  [ Thread-5:30606 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:31:49  [ Thread-5:30607 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:31:49  [ Thread-5:30608 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:31:49  [ Thread-5:30620 ] - [ INFO ]  dest apk file variant name: T6_AS_R_JC
+2020-08-06 17:31:49  [ Thread-5:30623 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_AS_R_JC.apk
+2020-08-06 17:31:51  [ Thread-5:32737 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:51  [ Thread-5:32973 ] - [ INFO ]  Config success, variant: T6_AS_R_JC
+2020-08-06 17:31:51  [ Thread-5:32973 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:51  [ Thread-5:32973 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:51  [ Thread-5:32974 ] - [ INFO ]  start modify manifest, params: {AREA=AS, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T6}
+2020-08-06 17:31:51  [ Thread-5:33003 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:31:51  [ Thread-5:33003 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="AS"/>
+2020-08-06 17:31:51  [ Thread-5:33004 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:31:51  [ Thread-5:33004 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:31:51  [ Thread-5:33014 ] - [ INFO ]  dest apk file variant name: T6_AS_R_RJ
+2020-08-06 17:31:51  [ Thread-5:33016 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_AS_R_RJ.apk
+2020-08-06 17:31:53  [ Thread-5:35101 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:54  [ Thread-5:35316 ] - [ INFO ]  Config success, variant: T6_AS_R_RJ
+2020-08-06 17:31:54  [ Thread-5:35316 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:54  [ Thread-5:35316 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:54  [ Thread-5:35317 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=JC, SERVER_TYPE=T, LIFWEAR_MODEL=T6}
+2020-08-06 17:31:54  [ Thread-5:35357 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:31:54  [ Thread-5:35358 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="AS"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:31:54  [ Thread-5:35358 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:31:54  [ Thread-5:35359 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:31:54  [ Thread-5:35368 ] - [ INFO ]  dest apk file variant name: T6_NA_T_JC
+2020-08-06 17:31:54  [ Thread-5:35371 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_NA_T_JC.apk
+2020-08-06 17:31:56  [ Thread-5:37461 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:56  [ Thread-5:37671 ] - [ INFO ]  Config success, variant: T6_NA_T_JC
+2020-08-06 17:31:56  [ Thread-5:37672 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:56  [ Thread-5:37672 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:56  [ Thread-5:37672 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=T, LIFWEAR_MODEL=T6}
+2020-08-06 17:31:56  [ Thread-5:37713 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:31:56  [ Thread-5:37714 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:31:56  [ Thread-5:37715 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="T"/>
+2020-08-06 17:31:56  [ Thread-5:37715 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:31:56  [ Thread-5:37726 ] - [ INFO ]  dest apk file variant name: T6_NA_T_RJ
+2020-08-06 17:31:56  [ Thread-5:37729 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_NA_T_RJ.apk
+2020-08-06 17:31:58  [ Thread-5:39794 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:31:58  [ Thread-5:40000 ] - [ INFO ]  Config success, variant: T6_NA_T_RJ
+2020-08-06 17:31:58  [ Thread-5:40001 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:31:58  [ Thread-5:40001 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:31:58  [ Thread-5:40001 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=JC, SERVER_TYPE=R, LIFWEAR_MODEL=T6}
+2020-08-06 17:31:58  [ Thread-5:40040 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:31:58  [ Thread-5:40041 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:31:58  [ Thread-5:40042 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="T"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:31:58  [ Thread-5:40042 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="RJ"/>, after : <meta-data android:name="MANUFACTURE" android:value="JC"/>
+2020-08-06 17:31:58  [ Thread-5:40052 ] - [ INFO ]  dest apk file variant name: T6_NA_R_JC
+2020-08-06 17:31:58  [ Thread-5:40055 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_NA_R_JC.apk
+2020-08-06 17:32:01  [ Thread-5:42181 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:32:01  [ Thread-5:42392 ] - [ WARN ]  java.nio.file.FileAlreadyExistsException: C:\Users\ADMINI~1\AppData\Local\Temp\apksigner1973442590730414451.apk -> C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_NA_R_JC.apk
+2020-08-06 17:32:01  [ Thread-5:42392 ] - [ INFO ]  Config success, variant: T6_NA_R_JC
+2020-08-06 17:32:01  [ Thread-5:42392 ] - [ INFO ]  Error param WIFI_SSID:
+2020-08-06 17:32:01  [ Thread-5:42393 ] - [ INFO ]  Error param WIFI_PWD:
+2020-08-06 17:32:01  [ Thread-5:42393 ] - [ INFO ]  start modify manifest, params: {AREA=NA, MANUFACTURE=RJ, SERVER_TYPE=R, LIFWEAR_MODEL=T6}
+2020-08-06 17:32:01  [ Thread-5:42436 ] - [ INFO ]  before: <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>, after : <meta-data android:name="LIFWEAR_MODEL" android:value="T6"/>
+2020-08-06 17:32:01  [ Thread-5:42437 ] - [ INFO ]  before: <meta-data android:name="AREA" android:value="NA"/>, after : <meta-data android:name="AREA" android:value="NA"/>
+2020-08-06 17:32:01  [ Thread-5:42438 ] - [ INFO ]  before: <meta-data android:name="SERVER_TYPE" android:value="R"/>, after : <meta-data android:name="SERVER_TYPE" android:value="R"/>
+2020-08-06 17:32:01  [ Thread-5:42438 ] - [ INFO ]  before: <meta-data android:name="MANUFACTURE" android:value="JC"/>, after : <meta-data android:name="MANUFACTURE" android:value="RJ"/>
+2020-08-06 17:32:01  [ Thread-5:42450 ] - [ INFO ]  dest apk file variant name: T6_NA_R_RJ
+2020-08-06 17:32:01  [ Thread-5:42453 ] - [ INFO ]  start build apk, path: C:\Users\Administrator\Desktop\appconfig_demo\lifwear_release_2.0.43_202008061720_T6_NA_R_RJ.apk
+2020-08-06 17:32:03  [ Thread-5:44548 ] - [ INFO ]  start sign, jks path: E:\CodeRepo\Demo\AppConfigGUI\platform.jks
+2020-08-06 17:32:03  [ Thread-5:44754 ] - [ INFO ]  Config success, variant: T6_NA_R_RJ
+2020-08-06 17:32:03  [ Thread-5:44754 ] - [ INFO ]  path C:\Users\Administrator\Desktop\appconfig_demo\temp_lifwear_release_2.0.43_202008061720
+2020-08-06 17:32:05  [ Thread-5:46195 ] - [ INFO ]  config finished
+2020-08-06 17:32:05  [ Thread-5:46195 ] - [ INFO ]  Config finished, spent time 46 s, success count: 16, failed count: 0
+
+
+

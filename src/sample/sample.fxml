@@ -29,55 +29,55 @@
             </HBox>
             <Label prefWidth="140" prefHeight="40" text="请选择相应参数："/>
             <HBox>
-                <Label prefWidth="100" prefHeight="40" text="站点地区："/>
-<!--                <fx:define>-->
-<!--                    <ToggleGroup fx:id="tgArea"/>-->
-<!--                </fx:define>-->
+                <Label prefWidth="120" prefHeight="40" text="站点地区："/>
+                <!--                <fx:define>-->
+                <!--                    <ToggleGroup fx:id="tgArea"/>-->
+                <!--                </fx:define>-->
                 <CheckBox fx:id="cbAreaAs" prefWidth="100" prefHeight="40"
-                             text="中国地区"/>
+                          text="中国地区"/>
                 <CheckBox fx:id="cbAreaNa" prefWidth="100" prefHeight="40"
-                             text="北美地区"/>
+                          text="北美地区"/>
                 <CheckBox fx:id="cbAreaAll" prefWidth="100" prefHeight="40"
                           text="全部地区"/>
             </HBox>
             <HBox>
-                <Label prefWidth="100" prefHeight="40" text="站点类型："/>
+                <Label prefWidth="120" prefHeight="40" text="站点类型："/>
                 <fx:define>
                     <ToggleGroup fx:id="tgServerType"/>
                 </fx:define>
                 <CheckBox fx:id="cbServerTest" prefWidth="100" prefHeight="40"
-                             text="测试站点"/>
+                          text="测试站点"/>
                 <CheckBox fx:id="cbServerRelease" prefWidth="100" prefHeight="40"
-                             text="运营站点"/>
+                          text="运营站点"/>
                 <CheckBox fx:id="cbServerAll" prefWidth="100" prefHeight="40"
                           text="全部类型"/>
             </HBox>
             <HBox>
-                <Label prefWidth="100" prefHeight="40" text="生产厂商："/>
+                <Label prefWidth="120" prefHeight="40" text="生产厂商："/>
                 <fx:define>
                     <ToggleGroup fx:id="tgManufacturer"/>
                 </fx:define>
                 <CheckBox fx:id="cbManJC" prefWidth="100" prefHeight="40"
-                             text="景创"/>
+                          text="景创"/>
                 <CheckBox fx:id="cbManRJ" prefWidth="100" prefHeight="40"
-                             text="瑞金"/>
+                          text="瑞金"/>
                 <CheckBox fx:id="cbManAll" prefWidth="100" prefHeight="40"
                           text="全部厂商"/>
             </HBox>
             <HBox>
-                <Label prefWidth="100" prefHeight="40" text="设备版本："/>
+                <Label prefWidth="120" prefHeight="40" text="设备版本："/>
                 <fx:define>
                     <ToggleGroup toggles="" fx:id="tgModel"/>
                 </fx:define>
                 <CheckBox fx:id="cbModelT5" prefWidth="100" prefHeight="40"
-                             text="T5"/>
+                          text="T5"/>
                 <CheckBox fx:id="cbModelT6" prefWidth="100" prefHeight="40"
-                             text="T6"/>
+                          text="T6"/>
                 <CheckBox fx:id="cbModelAll" prefWidth="100" prefHeight="40"
                           text="全部版本"/>
             </HBox>
             <HBox>
-                <Label prefWidth="100" prefHeight="40" text="Wifi热点："/>
+                <Label prefWidth="120" prefHeight="40" text="Wifi热点（非必选）："/>
                 <fx:define>
                     <ToggleGroup toggles="" fx:id="tgWifi"/>
                 </fx:define>
@@ -95,10 +95,9 @@
                 <CheckBox fx:id="cbPackageAll" prefWidth="100" prefHeight="40"
                           text="全参数打包"/>
             </HBox>
-            <HBox alignment="CENTER_RIGHT" >
+            <HBox alignment="CENTER_RIGHT">
                 <Button fx:id="btn_confirm" prefWidth="100" prefHeight="40" mnemonicParsing="false" text="确定"/>
             </HBox>
         </VBox>
-
     </children>
 </Pane>

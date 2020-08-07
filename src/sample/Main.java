@@ -1,22 +1,29 @@
 package sample;
 
+import com.lifwear.AppConfig;
+import com.lifwear.inter.IConfigCallback;
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
+import javafx.scene.control.*;
 import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.input.DragEvent;
 import javafx.scene.input.Dragboard;
 import javafx.scene.input.TransferMode;
-import javafx.scene.layout.Pane;
+import javafx.scene.layout.*;
 import javafx.stage.FileChooser;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 import org.apache.commons.lang3.StringUtils;
 
 import java.awt.*;
@@ -26,6 +33,7 @@ import java.util.List;
 
 public class Main extends Application {
 
+    // 根布局
     private Pane rootPane;
 
     // 站点地区
@@ -46,6 +54,19 @@ public class Main extends Application {
     private CheckBox cbPackageAll;
     // 确定按钮
     private Button btn_confirm;
+
+    // WaitingDialog 中的组件
+    private Stage waitingStage;
+    private Label lb_wait;
+    private VBox waitingPane;
+    private Scene waitingScene;
+    private ProgressBar pb_packing;
+
+    // 打包完成 Dialog 中的组件
+    private Stage doneStage;
+    private Label lb_done;
+    private StackPane donePane;
+    private Scene doneScene;
 
     // 源 APK 文件路径
     private String srcFilePath = "";
@@ -71,19 +92,79 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+
         // 找控件
         initView(root);
+        // 初始化正在打包的进度框
+        initWaitingDialog();
+        // 初始化打包完成的提示框
+        initDoneDialog();
         // 初始化各项参数List
         initParamLists();
         // 设置点击事件监听
         setOnActionListener(primaryStage);
         primaryStage.setTitle("AppConfigGUI");
         //设置窗口的图标.
-
         primaryStage.getIcons().add(new javafx.scene.image.Image(
                 Main.class.getResourceAsStream("/image/logo.png")));
-        primaryStage.setScene(new Scene(root, 500, 500));
+        primaryStage.setScene(new Scene(root, 520, 500));
         primaryStage.show();
+
+        // 调试布局代码
+//        waitingStage.showAndWait();
+//        doneStage.showAndWait();
+
+    }
+
+    private void initDoneDialog() {
+        donePane = new StackPane();
+        donePane.setStyle("-fx-background-color:transparent;-fx-padding:10px;");
+        // 组件加入面板
+        lb_done = new Label("打包已完成，请关闭当前提示框！");
+        donePane.getChildren().addAll(lb_done);
+        donePane.setAlignment(Pos.CENTER);
+        doneScene = new Scene(donePane, 300, 100);
+        // 创建另一个stage
+        doneStage = new Stage();
+        doneStage.setScene(doneScene);
+        // 指定 stage 的模式
+        doneStage.initModality(Modality.APPLICATION_MODAL);
+        doneStage.setTitle("打包完成");
+        //设置窗口的图标.
+        doneStage.getIcons().add(new javafx.scene.image.Image(
+                Main.class.getResourceAsStream("/image/logo.png")));
+    }
+
+    private void initWaitingDialog() {
+        waitingPane = new VBox();
+        waitingPane.setStyle("-fx-background-color:transparent;-fx-padding:10px;");
+        // 组件加入面板
+        lb_wait = new Label("正在初始化打包资源，请等待...");
+        lb_wait.setPadding(new Insets(5, 5, 5, 5));
+        pb_packing = new ProgressBar();
+        pb_packing.setPadding(new Insets(15, 5, 5, 5));
+        pb_packing.prefWidthProperty().setValue(350);
+        pb_packing.prefHeightProperty().setValue(20);
+        pb_packing.setProgress(0);
+        waitingPane.getChildren().addAll(lb_wait, pb_packing);
+        // make 2 scenes from 2 panes
+        waitingScene = new Scene(waitingPane, 400, 100);
+        // 创建另一个stage
+        waitingStage = new Stage();
+        waitingStage.setScene(waitingScene);
+        // 指定 stage 的模式
+        waitingStage.initModality(Modality.APPLICATION_MODAL);
+        waitingStage.setTitle("正在打包");
+        //设置窗口的图标.
+        waitingStage.getIcons().add(new javafx.scene.image.Image(
+                Main.class.getResourceAsStream("/image/logo.png")));
+        // 禁用弹框的关闭按钮
+        waitingStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+            @Override
+            public void handle(WindowEvent event) {
+                event.consume();
+            }
+        });
     }
 
     private void initParamLists() {
@@ -364,11 +445,20 @@ public class Main extends Application {
         }
     }
 
+    private List<String[]> paramList;
+    private int currentCount = 0;
+    private int failCount = 0;
+    private int countTotal = 0;
+
     /**
      * 根据选择的情况，组合打包参数
      */
     private void calParams() {
-        List<String[]> paramList = new ArrayList<>();
+        if (null == paramList) {
+            paramList = new ArrayList<>();
+        } else {
+            paramList.clear();
+        }
         srcFilePath = tfFilePath.getText();
         System.out.println(srcFilePath);
         if (StringUtils.isEmpty(srcFilePath)) {
@@ -380,6 +470,27 @@ public class Main extends Application {
             alert.showAndWait();
             return;
         }
+
+        // 如果未选必选项，则按缺省值来传
+        if (modelList.isEmpty()) {
+            modelList.add("");
+        }
+        if (areaList.isEmpty()) {
+            areaList.add("");
+        }
+        if (serverTypeList.isEmpty()) {
+            serverTypeList.add("");
+        }
+        if (manList.isEmpty()) {
+            manList.add("");
+        }
+        if (wifiList.isEmpty()) {
+            WifiInfo wifiInfo = new WifiInfo();
+            wifiInfo.setSsid("");
+            wifiInfo.setPwd("");
+            wifiList.add(wifiInfo);
+        }
+
         // 遍历打包参数
         for (String model : modelList) {
             for (String area : areaList) {
@@ -399,7 +510,81 @@ public class Main extends Application {
                 }
             }
         }
-        com.lifwear.AppConfig.multiConfig(paramList);
+
+        // TODO: 2020/8/7 弹框拦截点击
+        currentCount = 0;
+        failCount = 0;
+        countTotal = paramList.size();
+        waitingStage.setTitle("正在打包");
+        lb_wait.setText("正在初始化打包资源，请等待...");
+        pb_packing.setProgress(0);
+        waitingStage.show();
+        doneStage.close();
+
+        // 子线程启动任务
+        new Thread(() -> AppConfig.multiConfig(paramList, new IConfigCallback() {
+            @Override
+            public void onCancel() {
+                Platform.runLater(() -> {
+                    lb_wait.setText("已取消");
+                    waitingStage.setTitle("正在打包");
+                    waitingStage.close();
+                    doneStage.close();
+                });
+
+            }
+
+            @Override
+            public void onFailed(String s) {
+                // TODO: 2020/8/7 单个包失败，后续加进度显示
+                Platform.runLater(() -> {
+                    // 因为从 0 开始计数，所以先加再减
+                    currentCount++;
+                    failCount++;
+                    int countLeft = countTotal - currentCount;
+                    waitingStage.setTitle("正在打包（" + currentCount + "/" + countTotal +"）");
+                    lb_wait.setText("已打包 " + currentCount + " 个，剩余 " + countLeft + " 个，失败 " + failCount + " 个，请耐心等待...");
+                    pb_packing.setProgress((double)currentCount/(double)countTotal);
+                });
+
+            }
+
+            @Override
+            public void onSuccess(String s) {
+                // TODO: 2020/8/7 单个包完成，后续加进度显示
+                Platform.runLater(() -> {
+                    // 因为从 0 开始计数，所以先加再减
+                    currentCount++;
+                    int countLeft = countTotal - currentCount;
+                    waitingStage.setTitle("正在打包（" + currentCount + "/" + countTotal +"）");
+                    lb_wait.setText("已打包 " + currentCount + " 个，剩余 " + countLeft + " 个，失败 " + failCount + " 个，请耐心等待...");
+                    pb_packing.setProgress((double)currentCount/(double)countTotal);
+                });
+
+            }
+
+            @Override
+            public void onFinished(int i, int i1) {
+                Platform.runLater(() -> {
+                    //更新JavaFX的主线程的代码放在此处
+                    pb_packing.setProgress(1.0);
+                    waitingStage.setTitle("正在打包");
+                    lb_wait.setText("已完成");
+                    waitingStage.close();
+                    doneStage.show();
+                });
+            }
+
+            @Override
+            public void onError(String s) {
+                Platform.runLater(() -> {
+                    waitingStage.setTitle("正在打包");
+                    lb_wait.setText("打包失败，请重新执行打包操作");
+                    waitingStage.close();
+                    doneStage.close();
+                });
+            }
+        })).start();
     }
 
     private void initView(Parent root) {
